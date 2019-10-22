@@ -1,0 +1,8 @@
+crypto-config/**
+channel-artifacts/**
+docker-compose-cli.yaml
+docker-compose-orderers.yaml
+docker-compose-couch.yaml
+docker-compose-peers.yaml
+crypto-config.yaml
+configtx.yaml
