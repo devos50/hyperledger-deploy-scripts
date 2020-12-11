@@ -1,0 +1,23 @@
+{
+  "name": "sample-network",
+  "description": "Sample network contains 4 peers (2 orgs), 1 orderer and 2 cas for Python SDK testing",
+  "version": "0.1",
+  "client": {
+    "organization": "Org1",
+    "credentialStore": {
+      "path": "/tmp/hfc-kvs",
+      "cryptoStore": {
+        "path": "/tmp/hfc-cvs"
+      },
+      "wallet": "wallet-name"
+    }
+  },
+  "organizations": {
+  },
+  "orderers": {
+  },
+  "peers": {
+  },
+  "certificateAuthorities": {
+  }
+}
